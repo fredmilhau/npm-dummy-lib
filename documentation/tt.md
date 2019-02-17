@@ -72,8 +72,16 @@ git push origin v1.0.3
 "publish": "npm publish --access public"
 
 automatisation
-npm version patch -m "test npm version"
+
+    npm version patch
+    
+    yarn version --major
+    yarn version --minor
+    yarn version --patch
 
 update package json
 commit
 create tag
+
+scripts: "preversion" & "postversion" update git and npm
+

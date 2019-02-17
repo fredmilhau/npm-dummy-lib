@@ -71,4 +71,9 @@ git push origin v1.0.3
 
 "publish": "npm publish --access public"
 
+automatisation
 npm version patch -m "test npm version"
+
+update package json
+commit
+create tag

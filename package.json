@@ -10,7 +10,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "preversion": "yarn test",
+    "postversion": "git push && git push --tags && yarn publish"
   },
   "devDependencies": {
     "@types/node": "^11.9.4",

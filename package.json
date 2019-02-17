@@ -10,8 +10,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --reporter spec",
-    "publish": "npm publish --access public"
+    "test": "mocha --reporter spec"
   },
   "devDependencies": {
     "@types/node": "^11.9.4",

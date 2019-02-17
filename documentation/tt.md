@@ -58,3 +58,17 @@ The following paths and files are never ignored, so adding them to .npmignore is
     LICENSE / LICENCE
 
 If, given the structure of your project, you find .npmignore to be a maintenance headache, you might instead try populating the files property of package.json, which is an array of file or directory names that should be included in your package. Sometimes a whitelist is easier to manage than a blacklist.
+
+
+## release process
+
+modify package json version
+git add .
+git commit -m "message"
+git tag v1.0.3
+git push origin master
+git push origin v1.0.3
+
+"publish": "npm publish --access public"
+
+npm version patch -m "test npm version"

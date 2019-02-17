@@ -1,0 +1,26 @@
+{
+  "name": "@fredmilhau/npm-dummy-lib",
+  "version": "1.0.0",
+  "description": "this is a simple template of npm typescript lib",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:fredmilhau/npm-dummy-lib.git",
+  "keywords": [],
+  "author": "toto <aaa@toto.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}

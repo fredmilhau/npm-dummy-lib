@@ -1,6 +1,6 @@
 {
   "name": "@fredmilhau/npm-dummy-lib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "this is a simple template of npm typescript lib",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

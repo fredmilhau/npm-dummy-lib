@@ -1,0 +1,1 @@
+# npm-dummy-lib
